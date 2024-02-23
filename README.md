@@ -17,7 +17,8 @@ I recommand Wf-pore-C(https://github.com/epi2me-labs/wf-pore-c) for align and an
 
 ##  02.Anchor  （基因组挂载）
 
-目前只跑通了yahs(https://github.com/c-zhou/yahs),1.1版本（1.2版本使用bam文件会报错，作者没修）
+目前只跑通了yahs(https://github.com/c-zhou/yahs), 1.1版本
+（1.2版本使用bam文件会报错，作者没修）
 
     samtools faidx $fasta
     /path/to/yahs  -e CATG Bathyergus.fasta null.ns.bam  (e接酶切位点，不同酶不同)
