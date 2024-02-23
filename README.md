@@ -22,7 +22,8 @@ I recommand Wf-pore-C(https://github.com/epi2me-labs/wf-pore-c) for align and an
 
     samtools faidx $fasta
     /path/to/yahs  -e CATG Bathyergus.fasta null.ns.bam  (e接酶切位点，不同酶不同)
-    /path/to/juicer pre -a -o out_JBAT yahs.out.bin yahs.out_scaffolds_final.agp  $i.fasta.fai 这一步会提示下一步命令行是什么，echo 后面的会不一样
+    /path/to/juicer pre -a -o out_JBAT yahs.out.bin yahs.out_scaffolds_final.agp  $i.fasta.fai 
+    ##这一步会提示下一步命令行是什么，echo 后面的会不一样
     java -Xmx36G -jar juicer_tools_1.22.01.jar  pre --threads 30 out_JBAT.txt out_JBAT.hic <(echo "assembly 1382974809")
 
 将.assemble文件和.hic导入juicebox纠错即可
