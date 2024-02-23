@@ -6,6 +6,11 @@ Pore-C analysis note
 
 I recommand Wf-pore-C(https://github.com/epi2me-labs/wf-pore-c) for align and annotate bam files. Notice that it requires docker.
 
+本人修改过一个优化过运行速度的流程，可以通过以下命令下载：
+
+        wget https://github.com/gotouerina/Pore-C-analysis/releases/download/v1.0/modify-wf-pore-c.tar.gz
+        tar -xf https://github.com/gotouerina/Pore-C-analysis/releases/download/v1.0/modify-wf-pore-c.tar.gz        
+
 注意，该流程基于nextflow,需要dcoker支持运行。
 
     /path/to/nextflow run /path/to/wf-pore-c \
