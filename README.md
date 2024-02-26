@@ -45,4 +45,10 @@ I recommand Wf-pore-C(https://github.com/epi2me-labs/wf-pore-c) for align and an
 
 # 番外：没有Docker的解决方案
 
-        挖坑，待更新
+挖坑，待更新
+       
+尝试1
+
+        $NXF_SINGULARITY_CACHEDIR=`pwd` ; export $NXF_SINGULARITY_CACHEDIR;
+        
+                
