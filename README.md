@@ -20,7 +20,6 @@ I recommand Wf-pore-C(https://github.com/epi2me-labs/wf-pore-c) for align and an
 
 断点重连：添加--resume参数。断电关机，重连后可用。
 
-If you have no docker, run by add "-profile singularity" parameter 
 
 ##  02.Anchor  （基因组挂载）
 
@@ -42,3 +41,8 @@ If you have no docker, run by add "-profile singularity" parameter
         /yahs-1.1/juicer post -o out_JBAT out_JBAT.review.assembly out_JBAT.liftover.agp $fasta
         /yahs-1.1/agp_to_fasta  out_JBAT.liftover.agp $fasta > $fasta.v1.chr.fasta
         python juicer_assembly2agp_fa.py  out_JBAT.review.assembly  $fasta.chr.v1.fasta   $fasta.chr.v2.fasta  28 0 ##28是染色体数量
+
+
+# 番外：没有Docker的解决方案
+
+        挖坑，待更新
