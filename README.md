@@ -1,7 +1,7 @@
 # Pore-C-analysis
 Pore-C analysis note
 
-分析流程见WIKI
+分析流程见WIKI（https://github.com/gotouerina/Pore-C-analysis/wiki）
 
 # 番外：没有Docker的解决方案
 
