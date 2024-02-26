@@ -20,6 +20,8 @@ I recommand Wf-pore-C(https://github.com/epi2me-labs/wf-pore-c) for align and an
 
 断点重连：添加--resume参数。断电关机，重连后可用。
 
+If you have no docker, run by add "-profile singularity" parameter 
+
 ##  02.Anchor  （基因组挂载）
 
 目前只跑通了yahs(https://github.com/c-zhou/yahs), 1.1版本
